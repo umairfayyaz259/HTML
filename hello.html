@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gnom Theme - Hello Umair</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .gnom-container {
+            background: #fffbe6;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(56, 102, 65, 0.2);
+            padding: 40px 60px;
+            text-align: center;
+            position: relative;
+        }
+        .gnom-emoji {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            animation: bounce 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0);}
+            50% { transform: translateY(-20px);}
+        }
+        h1 {
+            color: #3e5c29;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        .mushroom {
+            position: absolute;
+            bottom: -30px;
+            left: 20px;
+            width: 60px;
+        }
+        .flower {
+            position: absolute;
+            top: -30px;
+            right: 20px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gnom-container">
+        <span class="gnom-emoji">🧙‍♂️</span>
+        <h1>Hello Umair!</h1>
+        <p>Welcome to the magical Gnom Theme page.</p>
+        <img class="mushroom" src="https://em-content.zobj.net/source/microsoft-teams/363/mushroom_1f344.png" alt="Mushroom">
+        <img class="flower" src="https://em-content.zobj.net/source/microsoft-teams/363/blossom_1f33c.png" alt="Flower">
+    </div>
